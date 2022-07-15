@@ -1,6 +1,6 @@
 # Pembantu-Restoran
 
-# Author
+## Author
 1. Wong Wei Soong (A180106)
 2. Muhammad Afif Imran bin Azman (A181594)
 3. Iman Farhana binti Rosli (A186144)
