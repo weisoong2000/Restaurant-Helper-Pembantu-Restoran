@@ -24,3 +24,6 @@
 ### Repeat same step for GOAL2 and GOAL3:
 ##### `rosrun play_motion SendGoal2.py`
 ##### `rosrun play_motion SendGoal3.py`
+
+## Note
+'Change the path for import destination.py in the initial_pose.py based on your path where the destination.py located in your computer.'
