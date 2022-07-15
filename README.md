@@ -6,21 +6,21 @@
 3. Iman Farhana binti Rosli (A186144)
 
 ## Instructions
-# RUN WORLD
+### RUN WORLD
 roslaunch tiago_2dnav_gazebo tiago_navigation.launch public_sim:=true robot:=steel world:=restaurant
 
-# RUN FIRST GOAL
+## RUN FIRST GOAL
 rosrun play_motion SendGoal1.py
 
-# RUN PICK UP STACK
+## RUN PICK UP STACK
 roslaunch tiago_pick_demo pick_demo.launch
 
-# START TO PICK OBJECT
+## START TO PICK OBJECT
 rosservice call /pick_gui
 
-# NAVIGATE TO DESTINATION, PUT OBJECT INTO DROPBOX AND BACK TO INITIAL POSITION
+## NAVIGATE TO DESTINATION, PUT OBJECT INTO DROPBOX AND BACK TO INITIAL POSITION
 rosrun tiago_trajectory_controller initial_pose.py
 
-*Repeat same step for GOAL2 and GOAL3:
+## Repeat same step for GOAL2 and GOAL3:
 rosrun play_motion SendGoal2.py
 rosrun play_motion SendGoal3.py
