@@ -5,7 +5,7 @@
 2. Muhammad Afif Imran bin Azman (A181594)
 3. Iman Farhana binti Rosli (A186144)
 
-# Instructions
+## Instructions
 # RUN WORLD
 roslaunch tiago_2dnav_gazebo tiago_navigation.launch public_sim:=true robot:=steel world:=restaurant
 
