@@ -21,6 +21,6 @@ rosservice call /pick_gui
 ### NAVIGATE TO DESTINATION, PUT OBJECT INTO DROPBOX AND BACK TO INITIAL POSITION
 rosrun tiago_trajectory_controller initial_pose.py
 
-#### Repeat same step for GOAL2 and GOAL3:
+### Repeat same step for GOAL2 and GOAL3:
 rosrun play_motion SendGoal2.py
 rosrun play_motion SendGoal3.py
