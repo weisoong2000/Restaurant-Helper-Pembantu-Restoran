@@ -1,4 +1,4 @@
-# Restoran Helper / Pembantu-Restoran
+# Restaurant Helper / Pembantu-Restoran
 
 ## Author
 1. `Wong Wei Soong (A180106)`
